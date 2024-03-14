@@ -1,0 +1,57 @@
+.container {
+    margin: 20px 10px;
+}
+.menu {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu ul li {
+    display: inline;
+}
+.menu ul li a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu ul li:hover a {
+    color: red;
+}
+.body {
+    margin: 0px 100px;
+    padding: 32px;
+    height: 500px;
+    display: block;
+    width: 60%;
+    font-size: 22px;
+}
+.top {
+    margin-bottom: 24px;
+}
+.top a {
+    text-decoration: none;
+}
+.main .avt-box a {
+    padding-left: 10px;
+    text-decoration: none;
+    align-items: center;
+}
+.main .avt-box a img {
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+}
+h1 {
+    margin: 0px 0px 24px;
+}
+.contain img {
+    width: 100%;
+}
+.end {
+    margin-top: 30px;
+    padding: 24px;
+    align-items: end;
+}
